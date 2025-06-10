@@ -4,13 +4,43 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# 📦 Parcel Tracker App – Flutter
 
-A few resources to get you started if this is your first Flutter project:
+A visually appealing and responsive mobile application built using **Flutter**. This app allows users to track their parcel delivery in real-time using a demo tracking ID. It features step-based delivery progress, Google Maps integration for live location visualization, and a smooth, intuitive UI. The interface supports both dark and light themes and is ideal for showcasing delivery stages from dispatch to arrival in a clean and interactive format.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+### 🌗 Home Screen (Dark Mode)
+![Home Dark](screenshots/home_screen.png)
+
+### 🗺️ Tracking Screen with Map
+![Tracking Screen](screenshots/tracking_screen.png)
+
+---
+
+## 🚀 Features
+- Real-time parcel tracking (simulated)
+- Delivery status updates with icons and timestamps
+- Google Maps integration
+- Light and dark theme toggle
+- Animated delivery intro (Lottie)
+- Flutter + Dart, responsive across devices
+
+---
+
+## 🧪 Technologies Used
+- Flutter & Dart
+- Google Maps SDK for Android
+- Lottie Animations
+- Permission Handler
+- State Management with StatefulWidgets
+
+---
+
+## 📂 How to Run
+```bash
+flutter pub get
+flutter run
+
