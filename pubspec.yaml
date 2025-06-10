@@ -1,0 +1,24 @@
+name: parcel_trackerapp
+description: A simple parcel tracker app using Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.0
+  http: ^0.13.5
+  im_stepper: ^1.0.1
+  lottie: ^2.7.0
+  permission_handler: ^11.3.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/delivery.json
